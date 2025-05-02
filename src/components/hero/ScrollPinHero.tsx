@@ -1,10 +1,8 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import ParallaxHero from "./ParallaxHero";
-import HeroSection from "./HeroSection";
-import WhyChooseUs from "./ScrollPinComponents/WhyChooseUs";
 import TeamExperience from "./ScrollPinComponents/TeamExperience";
+import WhyChooseUs from "./ScrollPinComponents/WhyChooseUs";
 
 const ScrollPinHero: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -62,9 +60,6 @@ const ScrollPinHero: React.FC = () => {
         </section>
         <section className="min-w-screen h-screen">
         <TeamExperience/>
-        </section>
-        <section className="min-w-screen h-screen">
-          <ParallaxHero />
         </section>
       </div>
     </div>

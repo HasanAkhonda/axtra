@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
 import { Menu, Search, X } from "lucide-react";
 import Image from "next/image";
+import { useState } from "react";
 import { navigationImages } from "../assets";
 
 // Navigation items
