@@ -35,10 +35,11 @@ const ParallaxHero: React.FC = () => {
               </p>
 
               {/* Button with icon */}
-              <button className="group relative flex items-center justify-center w-160 h-160 md:w-20 md:h-20 rounded-full border border-white text-white hover:bg-white hover:text-black transition-all duration-300">
+              <button className="group relative flex items-center justify-center w-16 h-16 md:w-40 md:h-40 rounded-full border border-white text-white hover:bg-white hover:text-black transition-all duration-300">
                 <h2 className="m-5 transition-transform duration-300 group-hover:rotate-360">
                   Explore Us
                 </h2>
+                
               </button>
             </div>
           </Parallax>
