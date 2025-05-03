@@ -19,7 +19,7 @@ const Menubar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow">
+    <header className="bg-white shadow fixed z-50 w-full">
       <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
