@@ -1,4 +1,6 @@
 import React from 'react';
+import { navigationImages } from '../assets';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -7,7 +9,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 px-6 py-20 lg:px-24 lg:py-28">
         {/* Left: Logo & Text */}
         <div className="space-y-6">
-          <img src="/logo.svg" alt="Axtra Logo" className="h-8" />
+          <Image src={navigationImages.logo} alt="Axtra Logo" className="h-8 invert" />
           <p className="text-gray-400 text-sm max-w-xs leading-relaxed">
             When do they work well, and when do they on us and finally, when do we actually need how can we avoid them.
           </p>
