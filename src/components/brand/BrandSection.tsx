@@ -1,11 +1,11 @@
 import {
-    Apple,
-    Chrome,
-    Github,
-    Layers,
-    Slack,
-    Youtube,
-  } from "lucide-react";
+  Apple,
+  Chrome,
+  Github,
+  Layers,
+  Slack,
+  Youtube,
+} from "lucide-react";
   
   const BrandSection = () => {
     return (
