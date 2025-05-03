@@ -14,6 +14,7 @@ export default function Home() {
       <HeroParallax/>
       <MarketingServices/>
       <MarketingFeatures/>
+      <MarketingFeatures/>
       <ScrollPinHero/>
     </div>
   );
