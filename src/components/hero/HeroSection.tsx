@@ -4,7 +4,7 @@ import { navigationImages } from "../assets"; // Replace with your image object
 
 const Hero = () => {
   return (
-    <section className="relative bg-white overflow-hidden w-full">
+    <section className="relative bg-white overflow-hidden pt-16 w-full">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image
